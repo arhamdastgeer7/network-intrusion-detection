@@ -20,7 +20,7 @@ importance analysis to understand which network features matter most.
 ANN — two hidden layers, ReLU activation, Adam optimizer with early stopping to prevent overfitting.
 
 ## What makes this non-trivial
-Real world network traffic data is heavily imbalanced — attack types 
+Real world network traffic data is heavily imbalanced attack types 
 like U2R and R2L have very few samples compared to Normal traffic. 
 SMOTE (Synthetic Minority Oversampling Technique) was used to balance 
 the training data so both models actually learn minority attack classes 
@@ -35,7 +35,7 @@ instead of just predicting Normal for everything.
 - Joblib — model serialization
 
 ## Dataset
-Uses the NSL-KDD dataset — an improved version of the KDD Cup 99 
+Uses the NSL-KDD dataset an improved version of the KDD Cup 99 
 dataset widely used in network intrusion detection research.
 
 Download from: https://www.kaggle.com/datasets/hassan06/nslkdd
