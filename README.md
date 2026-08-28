@@ -49,5 +49,13 @@ before running.
 - Feature importance chart showing top 10 most significant features
 - Trained models saved as .pkl files for deployment
 
+## Results
+Decision Tree Accuracy: 99.43%
+ANN Accuracy: 98.99%
+
+Decision Tree outperformed ANN on minority attack classes — 
+R2L F1: 0.93 and U2R F1: 0.65while being significantly 
+faster to train. Full evaluation details in report.pdf.
+
 ## Course
 Artificial Intelligence, 4th Semester, FAST-NUCES
